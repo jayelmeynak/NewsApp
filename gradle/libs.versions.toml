@@ -15,7 +15,6 @@ kotlinx-coroutines = "1.8.1"
 retrofitAdaptersResult = "1.0.9"
 retrofitConverterKotlinxSerialization = "1.0.0"
 appcompat = "1.7.0"
-material = "1.12.0"
 room = "2.6.1"
 ksp = "2.0.0-1.0.21"
 
@@ -53,7 +52,7 @@ koltinx-coroutines-android  = { module = "org.jetbrains.kotlinx:kotlinx-coroutin
 
 koltinx-serialization-json  = { module = "org.jetbrains.kotlinx:kotlinx-serialization-json", version.ref = "kotlin-serialization-json" }
 androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
-material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+
 
 [plugins]
 androidApplication = { id = "com.android.application", version.ref = "agp" }
